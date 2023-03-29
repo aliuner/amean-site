@@ -19,7 +19,10 @@ const Ekibimiz = () => {
           <div className="uye-info">
             <div className="hakkinda">
             <center>  <h4>Emin Kartcı</h4><br />
-            <p>şirketin kurucusu </p>
+            <p><b>şirketin kurucusu</b> </p>
+            <br />
+            <p>amean grubun kurucu ortağı ve CEO'su</p>
+            <br />
             </center>
             </div>
             <div className="social">
@@ -42,7 +45,10 @@ const Ekibimiz = () => {
           <div className="uye-info">
             <div className="hakkinda">
             <center>  <h4>Ali Üner</h4><br />
-            <p> </p>
+            <p><b>Stajer</b> </p>
+            <br />
+            <p>akdeniz ünüversitesi bilgisayar programcılığı öğrencisi</p>
+            <br />
             </center>
             </div>
             <div className="social">
