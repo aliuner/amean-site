@@ -12,7 +12,7 @@ const Login = () => {
         <input required type="password" placeholder='password' />
         <button >GİRİŞ YAP</button>
         <p>Şifreniz yada kullanıcı adınız hatalı </p>
-        <span >Hala kayıt olmadınız mı?<br></br><Link to="/register">Kayıt Ol</Link></span>
+        <span >Hala kayıt olmadınız mı?<br></br><br /><Link  to="/register">Kayıt Ol</Link></span>
       </form>
     </div>
   )

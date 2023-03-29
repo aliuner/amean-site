@@ -85,7 +85,15 @@
      
         
        .home{
-        
+        .p-yon{
+           
+            margin-left: 100px;
+            &:hover{
+                transition: .5s;
+                color: red;
+                
+            }
+        }
       
        
         align-items: center;
@@ -99,6 +107,7 @@
         .content{
            .head{
             .header{
+                margin-top: 25px;
                 padding: 20px;
               
                 font-size: 40px;
@@ -140,6 +149,7 @@
         }
 
         .post2{
+           
             flex-direction: row-reverse;
             justify-content: space-between;
             margin-top: 70px;
@@ -166,6 +176,7 @@
         }
         
         h1{
+            
             font-size: 40px;
                 font-family: 'Open Sans', sans-serif;
                 color:teal
@@ -288,6 +299,13 @@
         }
 
         .calismalarimiz{
+            .calisma-bslk{
+                padding: 20px;
+              
+                font-size: 40px;
+                font-family: 'Open Sans', sans-serif;
+                color:teal
+            }
             margin-top: 100px;
            
           
@@ -480,6 +498,7 @@
             
             
             .satir1{
+                border-top: 1px solid gray;
                 flex-wrap: wrap;
                 display: flex;
                 justify-content: space-between;
@@ -496,6 +515,9 @@
                 flex-wrap: wrap;
                 display: flex;
                 justify-content: space-between;
+             
+                
+                
             }
         }
     

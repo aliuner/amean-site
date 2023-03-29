@@ -5,7 +5,7 @@ const Calismalarimiz = () => {
     <div>
 
       <div className="calismalarimiz">
-
+      <center><p className='calisma-bslk'><i>Çalışmalarımız</i></p></center> 
         <div className="calisma1">
           <div className="calisma1-img"><center><i><h1>Yazılım Danışmanlığı</h1></i></center></div>
           <div className="calisma1-text">
@@ -49,6 +49,7 @@ Eğitim danışmanları aynı zamanda öğrencilere, ders çalışma ve öğrenm
 Danışmanlık hizmetleri genellikle şirketlerin veya bireylerin iş süreçlerini iyileştirmelerine, verimliliklerini artırmalarına, risklerini yönetmelerine, yeni pazarlara açılmalarına, gelirlerini artırmalarına ve genel olarak daha iyi bir performans göstermelerine yardımcı olmak için sunulur.
 
 Danışmanlık hizmetleri, danışmanlık firmaları veya bağımsız danışmanlar tarafından sunulabilir. Danışmanlar, müşterilerine özelleştirilmiş çözümler sunmak için genellikle araştırma yaparlar ve müşterilerin ihtiyaçlarına uygun stratejiler ve planlar oluştururlar. Danışmanlık hizmetleri genellikle proje bazlı veya sürekli danışmanlık olarak sunulabilir.</p>
+
           </div>
 
         </div>

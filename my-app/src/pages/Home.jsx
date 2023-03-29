@@ -11,7 +11,7 @@ const Home = () => {
       <div className="music-link">
         
         <center><p className='p'>Bir şarkı ile başlayalım mı?</p></center>
-        <p className='p2'><Link className='link' to="/video" > o zaman tıkla</Link></p>
+        <p className='p2'><Link className='link' to="/video" > O zaman buraya tıkla!</Link></p>
       </div>
     <div className='home'>
      
@@ -82,6 +82,8 @@ const Home = () => {
 <br></br>Danışman, sonuçları değerlendirmek ve işlemek için raporlar ve öneriler sunar.
 <br></br>Danışman, danışanın sürekli gelişimini takip eder ve gerektiğinde yeniden değerlendirme yapar.
 <br></br>Danışmanlık, işletme, insan kaynakları, yönetim, pazarlama, finans, teknoloji, hukuk ve diğer birçok alanda uygulanabilir. Danışmanlık hizmetleri, genellikle danışmanlık firmaları veya bağımsız danışmanlar tarafından sunulur ve genellikle ücretli bir hizmettir.
+<br /><br /><br /><br />
+<Link className="link" to="/calismalarimiz"><i><p className='p-yon'>Danışmanlık hizmetlerimiz ile ilgili detaylı bilgi için tıklayın... </p></i></Link>
 </p>
           </div>
 
