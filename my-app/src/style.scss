@@ -415,6 +415,11 @@
           }
             justify-content: space-between;
             .uye{
+                &:hover{
+                    scale: 1.2;
+                    transition: .8s;
+                }
+                
                 background: linear-gradient(to bottom, #29335C, #52adad 40%) ;
                 background-color: #52adad;
                 box-shadow: 3px 3px 4px;
@@ -428,7 +433,10 @@
                 align-items: center;
                 width: 250px;
                 height: 400px;
+
+                
                 .photo{
+                   
                     
                     img{
                     margin-left: 50px;
