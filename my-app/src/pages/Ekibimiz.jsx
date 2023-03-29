@@ -6,9 +6,11 @@ import Bayram from "../img/bayram.jpg"
 import Batuhan from "../img/batuhan.jpeg"
 import Ceyda from "../img/ceyda.jpg"
 import User from "../img/user-pp.jpg"
+import Hakkican from "../img/hakkican.jpeg"
 const Ekibimiz = () => {
   return (
    <div className="ekibimiz">
+    <center><p className='p1'><i>Ekibimiz</i></p></center>
       <div className="satir1">
         
         <div className="uye">
@@ -71,14 +73,19 @@ const Ekibimiz = () => {
           <div className="uye-info">
             <div className="hakkinda">
             <center>  <h4>Yavuz Bayram</h4><br />
-            <p> </p>
+            <p><b>Şirket Çalışanı</b> </p><br />
+           <p>Şirketin gözbebeği değerli bir abisi </p> 
             </center>
+            <br />
             </div>
             <div className="social">
+            <Link className='link' to=""> 
             <svg class="feather feather-mail" fill="none" height="28" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
                   <polyline points="22,6 12,13 2,6" /></svg>
+                  </Link>  
+                  <Link className='link' to="https://www.instagram.com/yavuzzcicekk/"> 
                   <svg class="feather feather-instagram" fill="none" height="25" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg"><rect height="20" rx="5" ry="5" width="20" x="2" y="2" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" /><line x1="17.5" x2="17.51" y1="6.5" y2="6.5" /></svg>    
-                  
+                  </Link>  
             </div>
             </div>
 
@@ -96,14 +103,18 @@ const Ekibimiz = () => {
           <div className="uye-info">
             <div className="hakkinda">
             <center>  <h4>Durmuş Kartcı</h4><br />
-            <p> </p>
+            <p><b>Stajer</b> </p><br />
+            <p>programlama ile uğraşıyor html css'e hakim</p><br />
             </center>
             </div>
             <div className="social">
+            <Link className='link' to=""> 
             <svg class="feather feather-mail" fill="none" height="28" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
                   <polyline points="22,6 12,13 2,6" /></svg>
+                  </Link>  
+                  <Link className='link' to=""> 
                   <svg class="feather feather-instagram" fill="none" height="25" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg"><rect height="20" rx="5" ry="5" width="20" x="2" y="2" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" /><line x1="17.5" x2="17.51" y1="6.5" y2="6.5" /></svg>    
-                  
+                  </Link>  
             </div>
             </div>
 
@@ -117,14 +128,18 @@ const Ekibimiz = () => {
           <div className="uye-info">
             <div className="hakkinda">
             <center>  <h4>Muhammet Kartcı</h4><br />
-            <p> </p>
-            </center>
+            <p><b>Stajer</b> </p><br />
+            <p>lise öğrencisi ama kendini yazılımda geliştiriyor</p>
+            </center><br />
             </div>
             <div className="social">
+            <Link className='link' to=""> 
             <svg class="feather feather-mail" fill="none" height="28" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
                   <polyline points="22,6 12,13 2,6" /></svg>
+                  </Link>  
+                  <Link className='link' to=""> 
                   <svg class="feather feather-instagram" fill="none" height="25" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg"><rect height="20" rx="5" ry="5" width="20" x="2" y="2" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" /><line x1="17.5" x2="17.51" y1="6.5" y2="6.5" /></svg>    
-                  
+                  </Link>  
             </div>
             </div>
 
@@ -138,14 +153,18 @@ const Ekibimiz = () => {
           <div className="uye-info">
             <div className="hakkinda">
             <center>  <h4>Batuhan Semiz</h4><br />
-            <p> </p>
+            <p><b>Stajyer</b> </p><br />
+            <p>Akdeniz üniversitesi ekonomi bölümü 1. sınıf öğrencisi </p><br />
             </center>
             </div>
             <div className="social">
+            <Link className='link' to=""> 
             <svg class="feather feather-mail" fill="none" height="28" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
                   <polyline points="22,6 12,13 2,6" /></svg>
+                  </Link>  
+                  <Link className='link' to="https://www.instagram.com/batuhansemiiz/"> 
                   <svg class="feather feather-instagram" fill="none" height="25" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg"><rect height="20" rx="5" ry="5" width="20" x="2" y="2" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" /><line x1="17.5" x2="17.51" y1="6.5" y2="6.5" /></svg>    
-                  
+                  </Link>  
             </div>
             </div>
         </div>
@@ -161,14 +180,18 @@ const Ekibimiz = () => {
           <div className="uye-info">
             <div className="hakkinda">
             <center>  <h4>Ceyda Urhan </h4><br />
-            <p> </p>
+            <p><b>Stajer</b> </p><br />
+            <p>Bilim üniversitesi bilgisayar mühendisliği 1. sınıf öğrencisi</p><br />
             </center>
             </div>
             <div className="social">
-            <svg class="feather feather-mail" fill="none" height="28" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+             <Link className='link'>
+              <svg class="feather feather-mail" fill="none" height="28" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
                   <polyline points="22,6 12,13 2,6" /></svg>
+                  </Link>
+              <Link className='link' to="https://www.instagram.com/ceydaaerhan_/">
                   <svg class="feather feather-instagram" fill="none" height="25" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg"><rect height="20" rx="5" ry="5" width="20" x="2" y="2" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" /><line x1="17.5" x2="17.51" y1="6.5" y2="6.5" /></svg>    
-                  
+                  </Link> 
             </div>
             </div>
         
@@ -182,35 +205,43 @@ const Ekibimiz = () => {
           <div className="uye-info">
             <div className="hakkinda">
             <center>  <h4>Ali Mansuroğlu</h4><br />
-            <p> </p>
+            <p><b>Çırak</b> </p><br />
+            <p>gelişim çağında kaslı bir lise mezunu yazılımla ilgileniyor</p><br />
             </center>
             </div>
             <div className="social">
+            <Link className='link'>
             <svg class="feather feather-mail" fill="none" height="28" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
                   <polyline points="22,6 12,13 2,6" /></svg>
+                  </Link>
+                  <Link className='link' to="https://www.instagram.com/alieserrs/">
                   <svg class="feather feather-instagram" fill="none" height="25" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg"><rect height="20" rx="5" ry="5" width="20" x="2" y="2" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" /><line x1="17.5" x2="17.51" y1="6.5" y2="6.5" /></svg>    
-                  
+                  </Link>
             </div>
             </div>
 
         </div>
 
         <div className="uye">
-        <div className="photo"><img src={User} alt="" />
+        <div className="photo"><img src={Hakkican} alt="" />
           
           </div>
 
           <div className="uye-info">
             <div className="hakkinda">
             <center>  <h4>Hakkıcan Soysal</h4><br />
-            <p> </p>
+            <p><b>Minerva Patronu</b> </p><br />
+            <p>minerva kafe kurucusu ve birçok alanda  girişimci</p><br />
             </center>
             </div>
             <div className="social">
+            <Link className='link' to=""> 
             <svg class="feather feather-mail" fill="none" height="28" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
                   <polyline points="22,6 12,13 2,6" /></svg>
+                  </Link>
+                  <Link className='link' to="https://www.instagram.com/hakkicansoysal/">
                   <svg class="feather feather-instagram" fill="none" height="25" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" viewBox="0 0 24 24" width="28" xmlns="http://www.w3.org/2000/svg"><rect height="20" rx="5" ry="5" width="20" x="2" y="2" /><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" /><line x1="17.5" x2="17.51" y1="6.5" y2="6.5" /></svg>    
-                  
+                  </Link>
             </div>
             </div>
 

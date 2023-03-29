@@ -405,6 +405,13 @@
         }
          
         .ekibimiz{
+            .p1{
+                padding: 20px;
+              
+                font-size: 40px;
+                font-family: 'Lora', serif;
+                color:teal
+            }
            
             padding: 100px;
           img{
@@ -420,7 +427,7 @@
                     transition: .8s;
                 }
                 
-                background: linear-gradient(to bottom, #29335C, #52adad 40%) ;
+                background: linear-gradient(to bottom, #29335C, #52adad 25%) ;
                 background-color: #52adad;
                 box-shadow: 3px 3px 4px;
                
