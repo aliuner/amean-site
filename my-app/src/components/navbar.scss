@@ -42,16 +42,17 @@
         button{
            margin-right: 20px;
             padding: 10px;
-            border: none;
-            background-color: teal;
+            border: 1px solid gray;
+            background-color: white;
             cursor: pointer;
-            color: white;
-            border-radius: 10px;
-            transition: .5s;
+            color: teal;
+            border-radius: 20px;
+            transition: 0.7s;
 
             &:hover{
+                transition: 0.7s;
                 color: white;
-                background: #52adad;
+                background: teal;
             }
         }
 
@@ -108,20 +109,38 @@
 }
 }
 .menu{
+    button{
+        margin-left: 20px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
     display: none;
     position: absolute;
+    justify-content: center;
+    align-items: center;
         right: 2rem;
         top: 60px;
-        width: 300px;
-        background: rgba(255,255,255, 0.1);
-        backdrop-filter: blur(2px);
+        width: 200px;
+       background-color: white;
+       border-radius: 20px;
+       border: 1px solid gray;
+       
         list-style: none;
         overflow: hidden;
         li{
+            margin-right: 30px;
             padding: 0.7rem;
             display: flex;
             align-items: center;
             justify-content: center;
+
+            &:hover{
+                background-color:teal;
+                color: white;
+                border-radius: 50px;
+                transition: .5s;
+                
+            }
         }
     .topList{
         
@@ -145,6 +164,7 @@
 
 }
 .toggle{
+    cursor: pointer;
     display: none;
 }
 

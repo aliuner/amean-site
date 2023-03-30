@@ -72,13 +72,13 @@
         .videoplayer{
             h1{
                 margin-bottom: 50px;
-                margin-right: 350px;
+                margin-right: 440px;
                 font-size: 40px;
                 font-family: 'Open Sans', sans-serif;
                 color:teal;
             }
-            margin-top: 200px;
-            margin-left: 500px;
+            margin-top: 150px;
+            margin-left: 420px;
             margin-bottom: 200px;
         }
         overflow:hidden ;
@@ -517,7 +517,7 @@
                 justify-content: space-between;
              
                 
-                
+                height: 550px;
             }
         }
     
@@ -535,7 +535,7 @@
             .footerana{
                 flex-wrap: wrap;
                 align-items: center;
-                justify-content: space-between;
+                justify-content:space-around;
                 display: flex;
             border-top: 1px solid gray;
                
@@ -582,10 +582,11 @@
              
            
               .iletisim{
+               
                 h1{
                     margin-right: 20px;
                 }
-                margin-left: 40px;
+                
                 margin-top: 50px;
                justify-content: center;
              
@@ -597,6 +598,10 @@
                
                
                 .insta{
+                    &:hover{
+                        scale: 1.05;
+                        transition: .8s;
+                    }
                     display: flex;
                     .insta-text{
                         margin-left: 10px;
@@ -606,6 +611,10 @@
                 
                  
                 .phone{
+                    &:hover{
+                        scale: 1.05;
+                        transition: .8s;
+                    }
                     display: flex;
                     .phone-text{
                         margin-top: 3px;
@@ -614,6 +623,10 @@
                 }
 
                 .email{
+                    &:hover{
+                        scale: 1.05;
+                        transition: .8s;
+                    }
                     display: flex;
                     .email-text{
                      margin-top: 3px;
@@ -624,6 +637,10 @@
                 }
                 
                 .youtube{
+                    &:hover{
+                        scale: 1.05;
+                        transition: .8s;
+                    }
                     display: flex;
                     .youtube-text{
                      margin-top: 5px;
@@ -686,28 +703,40 @@
         .post1{
             justify-content: center;
         }
-
-        .map{
-            
-            margin-left: 40px;
-        }
+       .uye{
+        margin-right: 40px;
+       }
+       
        
         .logo-text{
             margin-top: 40px;
-            margin-left: 40px;
+            margin-left: 50px;
            
         }
-
-        .post3-text{
-            margin-top: 100px;
-            margin-bottom: 80px;
-
+        .logo{
+            margin-right: 15px;
         }
+
+       
         .iletisim{
-            margin-left: 100px;
+           margin-left: 50px;
         }
 
-        
-
+        .satir3{
+            margin-bottom: 800px;
+        }
+        .post3-text{
+            margin-top: 290px;
+        }
+        .post2-text{
+            margin-top: 50px;
+        }
+        .head{
+            margin-right: 45px;
+        }
+        .logo-text{
+            justify-content: center;
+            margin-right: 10px;
+        }
        
       }
